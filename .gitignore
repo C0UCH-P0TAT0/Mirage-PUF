@@ -1,0 +1,35 @@
+# Vivado
+build/*
+!build/.gitkeep
+
+*.jou
+*.log
+*.str
+*.cache
+*.hw
+*.runs
+*.sim
+*.ip_user_files
+*.Xil
+
+# Generated bitstreams (optional)
+*.bit
+*.bin
+
+# Data
+data/**
+
+!data/raw/
+!data/raw/.gitkeep
+
+!data/processed/
+!data/processed/.gitkeep
+
+!data/calibration/
+!data/calibration/.gitkeep
+
+# Artifacts
+artifacts/**
+
+!artifacts/bitstreams/
+!artifacts/bitstreams/.gitkeep
