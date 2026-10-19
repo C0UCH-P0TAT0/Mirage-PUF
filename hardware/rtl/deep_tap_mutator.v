@@ -28,7 +28,7 @@ module deep_tap_mutator (
     endgenerate
 
 
-    // ~~~~~~~~~~~~~~~WIRE TAPPING~~~~~~~~~~~~~~~)
+    // ~~~~~~~~~~~~~~~WIRE TAPPING~~~~~~~~~~~~~~~
     wire [1:0] tune_a = challenge[57:56];                   // Common for all Chain A PDLs
     wire [1:0] tune_b = challenge[61:60];                   // Common for all Chain B PDLs
 

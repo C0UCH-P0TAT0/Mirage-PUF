@@ -1,7 +1,7 @@
 # =========================================================
 # VIVADO 10-RUN DEEP DSE SCRIPT (A2-PUF EDITION)
 # =========================================================
-set dse_dir "INSERT_DESTINATION_HERE"
+set dse_dir "C:\\Users\\a\\Desktop\\Mirage_PUF\\data\\runs"
 file mkdir $dse_dir
 
 set directives [list "Explore" "Default" "AggressiveExplore" "AlternateCLBRouting" "NoTimingRelaxation" "MoreGlobalIterations" "HigherDelayCost" "AdvancedSkewModeling" "RuntimeOptimized" "Quick"]

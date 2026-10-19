@@ -1,7 +1,7 @@
 import csv
 from itertools import combinations
 
-CSV_FILE = "../data/A2_RAW_20260415_142534.csv" # Update this!
+CSV_FILE = r"C:\Users\a\Desktop\Mirage_PUF\data\raw\Mirage_RAW_1_20261013_113605.csv" # Update this!
 
 def calc_intra_hd():
     total_challenges = 0

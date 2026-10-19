@@ -11,7 +11,7 @@ build/*
 *.sim
 *.ip_user_files
 *.Xil
-
+*.csv
 # Generated bitstreams (optional)
 *.bit
 *.bin

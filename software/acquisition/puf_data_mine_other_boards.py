@@ -6,11 +6,11 @@ import csv
 # ==========================================
 # CONFIGURATION
 # ==========================================
-OLD_CSV = "../data/A2_RAW_20260415_142534.csv"  # The 25k dataset you already have
-NEW_CSV = "../data/new_board_3.csv"  # Where the new data will be saved
+OLD_CSV = r"C:\Users\a\Desktop\Mirage_PUF\data\raw\Mirage_RAW_4_20261013_113605.csv"  # The 25k dataset you already have
+NEW_CSV = r"C:\Users\a\Desktop\Mirage_PUF\data\raw\Mirage_RAW_14.csv"  # Where the new data will be saved
 CHALLENGE_COL = "Challenge_Hex"     # Column name in your old CSV
 
-COM_PORT = "COM10"                   # Change to your Nexys A7 COM port
+COM_PORT = "COM6"                   # Change to your Nexys A7 COM port
 BAUD_RATE = 115200
 
 def main():

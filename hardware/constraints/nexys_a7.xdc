@@ -47,9 +47,9 @@ set_property LOC SLICE_X34Y65 [get_cells my_ipuf/upper_puf_inst/carry_chain_gen\
 # ========================================================
 # Arbiter (Shifted Left to X31 for Coarse Tuning)
 set_property BEL A6LUT [get_cells {my_ipuf/upper_puf_inst/nand_a}]
-set_property LOC SLICE_X31Y66 [get_cells {my_ipuf/upper_puf_inst/nand_a}]
+set_property LOC SLICE_X32Y66 [get_cells {my_ipuf/upper_puf_inst/nand_a}]
 set_property BEL B6LUT [get_cells {my_ipuf/upper_puf_inst/nand_b}]
-set_property LOC SLICE_X31Y66 [get_cells {my_ipuf/upper_puf_inst/nand_b}]
+set_property LOC SLICE_X32Y66 [get_cells {my_ipuf/upper_puf_inst/nand_b}]
 
 # PDL A (Flush with Track A at X30)
 set_property BEL A6LUT [get_cells {my_ipuf/upper_puf_inst/a_b1}]
@@ -116,9 +116,9 @@ set_property LOC SLICE_X42Y65 [get_cells my_ipuf/lower_puf_inst/carry_chain_gen\
 
 # TAP 1 (1/4 mark - Stage 4 -> Y54)
 set_property BEL A6LUT [get_cells {my_ipuf/lower_puf_inst/arb1_a}]
-set_property LOC SLICE_X39Y54 [get_cells {my_ipuf/lower_puf_inst/arb1_a}]
+set_property LOC SLICE_X40Y54 [get_cells {my_ipuf/lower_puf_inst/arb1_a}]
 set_property BEL B6LUT [get_cells {my_ipuf/lower_puf_inst/arb1_b}]
-set_property LOC SLICE_X39Y54 [get_cells {my_ipuf/lower_puf_inst/arb1_b}]
+set_property LOC SLICE_X40Y54 [get_cells {my_ipuf/lower_puf_inst/arb1_b}]
 
 set_property BEL A6LUT [get_cells {my_ipuf/lower_puf_inst/pdl_t1_a/b1}]
 set_property LOC SLICE_X38Y54 [get_cells {my_ipuf/lower_puf_inst/pdl_t1_a/b1}]
@@ -140,9 +140,9 @@ set_property LOC SLICE_X42Y54 [get_cells {my_ipuf/lower_puf_inst/pdl_t1_b/mux}]
 
 # TAP 2 (1/2 mark - Stage 8 -> Y58)
 set_property BEL A6LUT [get_cells {my_ipuf/lower_puf_inst/arb2_a}]
-set_property LOC SLICE_X39Y58 [get_cells {my_ipuf/lower_puf_inst/arb2_a}]
+set_property LOC SLICE_X40Y58 [get_cells {my_ipuf/lower_puf_inst/arb2_a}]
 set_property BEL B6LUT [get_cells {my_ipuf/lower_puf_inst/arb2_b}]
-set_property LOC SLICE_X39Y58 [get_cells {my_ipuf/lower_puf_inst/arb2_b}]
+set_property LOC SLICE_X40Y58 [get_cells {my_ipuf/lower_puf_inst/arb2_b}]
 
 set_property BEL A6LUT [get_cells {my_ipuf/lower_puf_inst/pdl_t2_a/b1}]
 set_property LOC SLICE_X38Y58 [get_cells {my_ipuf/lower_puf_inst/pdl_t2_a/b1}]
@@ -164,9 +164,9 @@ set_property LOC SLICE_X42Y58 [get_cells {my_ipuf/lower_puf_inst/pdl_t2_b/mux}]
 
 # TAP 3 (3/4 mark - Stage 12 -> Y62)
 set_property BEL A6LUT [get_cells {my_ipuf/lower_puf_inst/arb3_a}]
-set_property LOC SLICE_X39Y62 [get_cells {my_ipuf/lower_puf_inst/arb3_a}]
+set_property LOC SLICE_X40Y62 [get_cells {my_ipuf/lower_puf_inst/arb3_a}]
 set_property BEL B6LUT [get_cells {my_ipuf/lower_puf_inst/arb3_b}]
-set_property LOC SLICE_X39Y62 [get_cells {my_ipuf/lower_puf_inst/arb3_b}]
+set_property LOC SLICE_X40Y62 [get_cells {my_ipuf/lower_puf_inst/arb3_b}]
 
 set_property BEL A6LUT [get_cells {my_ipuf/lower_puf_inst/pdl_t3_a/b1}]
 set_property LOC SLICE_X38Y62 [get_cells {my_ipuf/lower_puf_inst/pdl_t3_a/b1}]
@@ -188,9 +188,9 @@ set_property LOC SLICE_X42Y62 [get_cells {my_ipuf/lower_puf_inst/pdl_t3_b/mux}]
 
 # TAP 4 (Finish Line - Stage 16 -> Y66)
 set_property BEL A6LUT [get_cells {my_ipuf/lower_puf_inst/arb4_a}]
-set_property LOC SLICE_X39Y66 [get_cells {my_ipuf/lower_puf_inst/arb4_a}]
+set_property LOC SLICE_X40Y66 [get_cells {my_ipuf/lower_puf_inst/arb4_a}]
 set_property BEL B6LUT [get_cells {my_ipuf/lower_puf_inst/arb4_b}]
-set_property LOC SLICE_X39Y66 [get_cells {my_ipuf/lower_puf_inst/arb4_b}]
+set_property LOC SLICE_X40Y66 [get_cells {my_ipuf/lower_puf_inst/arb4_b}]
 
 set_property BEL A6LUT [get_cells {my_ipuf/lower_puf_inst/pdl_t4_a/b1}]
 set_property LOC SLICE_X38Y66 [get_cells {my_ipuf/lower_puf_inst/pdl_t4_a/b1}]

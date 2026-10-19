@@ -4,7 +4,7 @@ import os
 import csv
 from datetime import datetime
 
-PORT = 'COM10'
+PORT = 'COM7'
 BAUD_RATE = 115200
 
 # Increased for statistical validity during calibration

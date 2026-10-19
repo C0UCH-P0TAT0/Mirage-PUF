@@ -4,14 +4,14 @@ import os
 import csv
 from datetime import datetime
 
-PORT = 'COM8'
+PORT = 'COM7'
 BAUD_RATE = 115200
 TOTAL_CHALLENGES = 25000
 READS_PER_CHALLENGE = 10
 
 # Bitstream 3 Golden Dials
-CALIBRATED_PDL_A = 0
-CALIBRATED_PDL_B = 1
+CALIBRATED_PDL_A = 2
+CALIBRATED_PDL_B = 3
 
 def generate_locked_challenge():
     raw_chal = os.urandom(16)
@@ -33,9 +33,9 @@ def query_puf(ser, challenge_bytes):
     return "TIMEOUT"
 
 def mine_data():
-    out_dir = "../data"
+    out_dir = "C:\\Users\\a\\Desktop\\Mirage_PUF\\data\\raw"
     os.makedirs(out_dir, exist_ok=True)
-    filepath = f"{out_dir}/A2_RAW_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+    filepath = f"{out_dir}/Mirage_RAW_1_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
     
     try:
         ser = serial.Serial(PORT, BAUD_RATE, timeout=1)

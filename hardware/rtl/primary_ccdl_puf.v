@@ -31,6 +31,7 @@ module primary_ccdl_puf (
 
                 (* DONT_TOUCH = "TRUE" *)                               // do not optimize
                 CARRY4 carry_b_inst (                                   // RACETRACK B 
+                    .CO(chain_b[4:1]),
                     .O(),                                               // sum of the stage (Trash it)
                     .CI(1'b0),                                          // Must be 0 for the first stage
                     .CYINIT(chain_b[0]),                                // Trigger set to 0 at the start
